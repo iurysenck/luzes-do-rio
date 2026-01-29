@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luzes do Rio | Sua Janela para o Novo Estádio do Flamengo</title>
+    <meta name="description"
+        content="Luzes do Rio - O empreendimento mais conectado ao futuro do Flamengo. Vista privilegiada para o novo estádio. Condições especiais para Embaixadas.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#inicio" class="logo">
+                <span class="logo-text">LUZES DO <span class="highlight">RIO</span></span>
+            </a>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio" data-i18n="nav.home">Início</a></li>
+                <li><a href="#embaixadas" data-i18n="nav.embassies">Embaixadas</a></li>
+                <li><a href="#empreendimento" data-i18n="nav.development">Empreendimento</a></li>
+                <li><a href="#estadio" data-i18n="nav.stadium">Estádio</a></li>
+                <li><a href="#precos" data-i18n="nav.prices">Valores</a></li>
+                <li><a href="#contato" data-i18n="nav.contact">Contato</a></li>
+                <li class="nav-cta-mobile"><a href="#contato" class="btn btn-primary btn-sm" data-i18n="nav.cta">Fale
+                        Conosco</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="#contato" class="cta-nav" data-i18n="nav.cta">Fale Conosco</a>
+                <div class="lang-toggle">
+                    <button class="lang-btn active" data-lang="pt">PT</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Day/Night Transition -->
+    <section class="hero" id="inicio">
+        <div class="hero-bg">
+            <img src="assets/img/Stadium_Aerial_V1_Standard.png" alt="Estádio do Flamengo - Dia"
+                class="hero-image hero-day">
+            <img src="assets/img/Stadium_Aerial_Night_Matchday.png" alt="Estádio do Flamengo - Noite"
+                class="hero-image hero-night">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge animate-fade-in">
+                <span class="badge-icon">🏟️</span>
+                <span data-i18n="hero.badge">Sua janela para o novo Estádio do Flamengo</span>
+            </div>
+            <h1 class="hero-title animate-fade-in-up">
+                <span data-i18n="hero.title1">Viva ao Lado da</span>
+                <span class="title-highlight" data-i18n="hero.title2">Paixão Rubro-Negra!</span>
+            </h1>
+            <p class="hero-subtitle animate-fade-in-up" data-i18n="hero.subtitle">
+                O único empreendimento do Rio com vista privilegiada para o futuro estádio do Mengão. Condições
+                exclusivas para membros das Embaixadas oficiais.
+            </p>
+            <div class="hero-buttons animate-fade-in-up">
+                <a href="#contato" class="btn btn-primary" data-i18n="hero.cta1">Quero Garantir Minha Unidade</a>
+                <a href="#embaixadas" class="btn btn-outline" data-i18n="hero.cta2">Ver Benefícios Embaixadas</a>
+            </div>
+            <div class="hero-stats animate-fade-in">
+                <div class="stat"><span class="stat-number" data-count="501">0</span><span class="stat-label"
+                        data-i18n="hero.stat1">Unidades</span></div>
+                <div class="stat"><span class="stat-number" data-count="18">0</span><span class="stat-label"
+                        data-i18n="hero.stat2">Pavimentos</span></div>
+                <div class="stat"><span class="stat-number">5</span><span class="stat-label" data-i18n="hero.stat3">min
+                        do Porto Maravilha</span></div>
+            </div>
+        </div>
+        <a href="#flamengo" class="scroll-indicator" aria-label="Scroll down">
+            <span class="scroll-arrow"></span>
+        </a>
+    </section>
+
+    <!-- Flamengo Connection -->
+    <section class="flamengo-section" id="flamengo">
+        <div class="container">
+            <div class="flamengo-grid">
+                <div class="flamengo-content reveal-left">
+                    <span class="section-tag" data-i18n="flamengo.tag">Uma Nação, Um Sonho</span>
+                    <h2 data-i18n="flamengo.title">O Maior Clube do <span class="highlight">Brasil</span> ao Seu Lado
+                    </h2>
+                    <p data-i18n="flamengo.p1">Imagine acordar e ver o novo estádio do Flamengo da sua janela. Estar a
+                        minutos de viver cada emoção rubro-negra. Essa é a oportunidade única que o Luzes do Rio
+                        oferece.</p>
+                    <p data-i18n="flamengo.p2">Localizado estrategicamente no Porto Maravilha, você estará no coração
+                        das maiores conquistas que virão. É mais que um lar — é fazer parte da história.</p>
+                    <a href="#contato" class="btn btn-primary" data-i18n="flamengo.cta">Garanta Sua Unidade</a>
+                </div>
+                <div class="flamengo-image reveal-right">
+                    <div class="carousel" data-carousel="flamengo">
+                        <div class="carousel-track">
+                            <img src="assets/img/stadium_side_exterior_1769532176817.png" alt="Estádio Vista Lateral"
+                                class="carousel-slide active">
+                            <img src="assets/img/stadium_exterior_v2_1769532519343.png" alt="Estádio Exterior"
+                                class="carousel-slide">
+                            <img src="assets/img/stadium_reflection_1769532212101.png" alt="Estádio Reflexo"
+                                class="carousel-slide">
+                        </div>
+                        <div class="carousel-dots"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Embaixadas Benefits -->
+    <section class="embaixadas" id="embaixadas">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag" data-i18n="embaixadas.tag">Exclusivo</span>
+                <h2 data-i18n="embaixadas.title">Benefícios para <span class="highlight">Embaixadas</span></h2>
+                <p data-i18n="embaixadas.subtitle">Condições especiais e vantagens únicas para membros oficiais das
+                    Embaixadas e Consulados do Flamengo.</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card reveal-up" style="--delay: 0.1s">
+                    <div class="benefit-icon">🎫</div>
+                    <h3 data-i18n="embaixadas.b1.title">Prioridade de Acesso</h3>
+                    <p data-i18n="embaixadas.b1.desc">Membros das embaixadas têm prioridade na escolha das unidades e
+                        condições de pagamento diferenciadas.</p>
+                </div>
+                <div class="benefit-card reveal-up" style="--delay: 0.2s">
+                    <div class="benefit-icon">💰</div>
+                    <h3 data-i18n="embaixadas.b2.title">Descontos Exclusivos</h3>
+                    <p data-i18n="embaixadas.b2.desc">Valores especiais que só quem é rubro-negro de verdade pode
+                        aproveitar.</p>
+                </div>
+                <div class="benefit-card reveal-up" style="--delay: 0.3s">
+                    <div class="benefit-icon">🏠</div>
+                    <h3 data-i18n="embaixadas.b3.title">Áreas Personalizadas</h3>
+                    <p data-i18n="embaixadas.b3.desc">Espaços temáticos do Flamengo nas áreas comuns para viver a paixão
+                        todos os dias.</p>
+                </div>
+                <div class="benefit-card reveal-up" style="--delay: 0.4s">
+                    <div class="benefit-icon">🤝</div>
+                    <h3 data-i18n="embaixadas.b4.title">Comunidade Rubro-Negra</h3>
+                    <p data-i18n="embaixadas.b4.desc">Viva cercado por torcedores que compartilham a mesma paixão.</p>
+                </div>
+                <div class="benefit-card reveal-up" style="--delay: 0.5s">
+                    <div class="benefit-icon">📍</div>
+                    <h3 data-i18n="embaixadas.b5.title">Localização Privilegiada</h3>
+                    <p data-i18n="embaixadas.b5.desc">A minutos do novo estádio e de toda a infraestrutura do Porto
+                        Maravilha.</p>
+                </div>
+                <div class="benefit-card reveal-up" style="--delay: 0.6s">
+                    <div class="benefit-icon">⭐</div>
+                    <h3 data-i18n="embaixadas.b6.title">Atendimento VIP</h3>
+                    <p data-i18n="embaixadas.b6.desc">Equipe dedicada para atender membros das embaixadas com
+                        exclusividade.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Empreendimento -->
+    <section class="empreendimento" id="empreendimento">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag" data-i18n="emp.tag">O Empreendimento</span>
+                <h2 data-i18n="emp.title">Luzes do <span class="highlight">Rio</span></h2>
+                <p class="emp-desc" data-i18n="emp.desc">O Condomínio Candeeiro une história e modernidade. No terreno
+                    onde o Barão de Mauá construiu a primeira fábrica de vela e sabão do Brasil, nasce um empreendimento
+                    que ilumina o futuro do Rio.</p>
+            </div>
+            <div class="emp-carousel-section">
+                <div class="carousel carousel-large" data-carousel="empreendimento">
+                    <div class="carousel-track">
+                        <img src="assets/img/luzes_sweetspot_v8_realism_1769460631941.png" alt="Vista Principal"
+                            class="carousel-slide active">
+                        <img src="assets/img/Book/Book_Digital_1_y5oplu_Página_04.jpg" alt="Fachada"
+                            class="carousel-slide">
+                        <img src="assets/img/luzes_apartment_view_v1_1769542160516.png" alt="Vista Apartamento"
+                            class="carousel-slide">
+                        <img src="assets/img/Arte_3_Familia.png" alt="Família" class="carousel-slide">
+                        <img src="assets/img/Cury/cury_01.jpeg" alt="Imagem Cury 1" class="carousel-slide">
+                        <img src="assets/img/Cury/cury_02.jpeg" alt="Imagem Cury 2" class="carousel-slide">
+                        <img src="assets/img/Cury/cury_03.jpeg" alt="Imagem Cury 3" class="carousel-slide">
+                        <img src="assets/img/Cury/cury_04.jpeg" alt="Imagem Cury 4" class="carousel-slide">
+                    </div>
+                    <button class="carousel-btn prev" aria-label="Anterior">❮</button>
+                    <button class="carousel-btn next" aria-label="Próximo">❯</button>
+                    <div class="carousel-dots"></div>
+                </div>
+            </div>
+            <div class="emp-features-grid">
+                <div class="feature reveal-up" style="--delay: 0.1s">
+                    <div class="feature-icon">🏛️</div>
+                    <div class="feature-text">
+                        <h4 data-i18n="emp.f1.title">História Preservada</h4>
+                        <p data-i18n="emp.f1.desc">Casarão histórico do Barão de Mauá restaurado</p>
+                    </div>
+                </div>
+                <div class="feature reveal-up" style="--delay: 0.2s">
+                    <div class="feature-icon">🚴</div>
+                    <div class="feature-text">
+                        <h4 data-i18n="emp.f2.title">Bike Elétrica Inclusa</h4>
+                        <p data-i18n="emp.f2.desc">Cada apartamento vem com uma bicicleta Lev</p>
+                    </div>
+                </div>
+                <div class="feature reveal-up" style="--delay: 0.3s">
+                    <div class="feature-icon">🏊</div>
+                    <div class="feature-text">
+                        <h4 data-i18n="emp.f3.title">Lazer Padrão Resort</h4>
+                        <p data-i18n="emp.f3.desc">Piscina, academia, sport bar e muito mais</p>
+                    </div>
+                </div>
+                <div class="feature reveal-up" style="--delay: 0.4s">
+                    <div class="feature-icon">🚇</div>
+                    <div class="feature-text">
+                        <h4 data-i18n="emp.f4.title">Mobilidade Total</h4>
+                        <p data-i18n="emp.f4.desc">VLT, Terminal Gentileza e Rodoviária próximos</p>
+                    </div>
+                </div>
+                <div class="feature reveal-up" style="--delay: 0.5s">
+                    <div class="feature-icon">🐕</div>
+                    <div class="feature-text">
+                        <h4 data-i18n="emp.f5.title">Pet Friendly</h4>
+                        <p data-i18n="emp.f5.desc">Pet Place e Pet Care no condomínio</p>
+                    </div>
+                </div>
+                <div class="feature reveal-up" style="--delay: 0.6s">
+                    <div class="feature-icon">💼</div>
+                    <div class="feature-text">
+                        <h4 data-i18n="emp.f6.title">Coworking</h4>
+                        <p data-i18n="emp.f6.desc">Espaço de trabalho moderno no condomínio</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lazer Section -->
+    <section class="lazer" id="lazer">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag" data-i18n="lazer.tag">Lazer Completo</span>
+                <h2 data-i18n="lazer.title">Estrutura <span class="highlight">Padrão Resort</span></h2>
+            </div>
+            <div class="carousel carousel-large" data-carousel="lazer">
+                <div class="carousel-track">
+                    <img src="assets/img/Book/Book_Digital_1_y5oplu_Página_19.jpg" alt="Academia"
+                        class="carousel-slide active">
+                    <img src="assets/img/Book/Book_Digital_1_y5oplu_Página_20.jpg" alt="Piscina" class="carousel-slide">
+                    <img src="assets/img/Book/Book_Digital_1_y5oplu_Página_21.jpg" alt="Salão de Festas"
+                        class="carousel-slide">
+                    <img src="assets/img/Book/Book_Digital_1_y5oplu_Página_22.jpg" alt="Sport Bar"
+                        class="carousel-slide">
+                    <img src="assets/img/Book/Book_Digital_1_y5oplu_Página_23.jpg" alt="Brinquedoteca"
+                        class="carousel-slide">
+                    <img src="assets/img/Book/Book_Digital_1_y5oplu_Página_24.jpg" alt="Pet Place"
+                        class="carousel-slide">
+                </div>
+                <button class="carousel-btn prev" aria-label="Anterior">❮</button>
+                <button class="carousel-btn next" aria-label="Próximo">❯</button>
+                <div class="carousel-dots"></div>
+            </div>
+            <div class="lazer-grid">
+                <div class="lazer-item">🏊 <span data-i18n="lazer.i1">Piscina</span></div>
+                <div class="lazer-item">🏋️ <span data-i18n="lazer.i2">Academia</span></div>
+                <div class="lazer-item">🧘 <span data-i18n="lazer.i3">Pilates/Yoga</span></div>
+                <div class="lazer-item">🍺 <span data-i18n="lazer.i4">Sport Bar</span></div>
+                <div class="lazer-item">🎉 <span data-i18n="lazer.i5">Salão de Festas</span></div>
+                <div class="lazer-item">👶 <span data-i18n="lazer.i6">Brinquedoteca</span></div>
+                <div class="lazer-item">🐕 <span data-i18n="lazer.i7">Pet Place</span></div>
+                <div class="lazer-item">💻 <span data-i18n="lazer.i8">Coworking</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stadium Section -->
+    <section class="stadium" id="estadio">
+        <div class="stadium-bg">
+            <img src="assets/img/stadium_aerial_8k.png" alt="Estádio do Flamengo" class="stadium-bg-img">
+            <div class="stadium-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="stadium-content reveal-up">
+                <span class="section-tag light" data-i18n="stadium.tag">O Sonho Rubro-Negro</span>
+                <h2 data-i18n="stadium.title">O Novo <span class="highlight-gold">Estádio do Flamengo</span></h2>
+                <p data-i18n="stadium.p1">O tão sonhado estádio próprio do Mengão está mais próximo do que nunca. E você
+                    pode estar ainda mais perto!</p>
+                <p data-i18n="stadium.p2">Imagine caminhar até o estádio nos dias de jogo, encontrar a Nação nas ruas, e
+                    voltar para casa depois da vitória. Isso é viver o Flamengo de verdade.</p>
+                <div class="stadium-features">
+                    <div class="stadium-feature">
+                        <span class="sf-icon">🚶</span>
+                        <span data-i18n="stadium.sf1">Caminhada até o estádio</span>
+                    </div>
+                    <div class="stadium-feature">
+                        <span class="sf-icon">🌅</span>
+                        <span data-i18n="stadium.sf2">Vista privilegiada do seu apartamento</span>
+                    </div>
+                    <div class="stadium-feature">
+                        <span class="sf-icon">🎉</span>
+                        <span data-i18n="stadium.sf3">Viva cada vitória intensamente</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section class="videos" id="videos">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag" data-i18n="videos.tag">Experiência Imersiva</span>
+                <h2 data-i18n="videos.title">Conheça o <span class="highlight">Projeto</span></h2>
+                <p data-i18n="videos.subtitle">Veja em detalhes como será viver no Luzes do Rio.</p>
+            </div>
+            <div class="video-grid">
+                <div class="video-container reveal-up" style="--delay: 0.1s">
+                    <video controls poster="assets/img/stadium_aerial_8k.png">
+                        <source src="assets/img/Videos/video_01.mp4" type="video/mp4">
+                        Seu navegador não suporta vídeos.
+                    </video>
+                    <h3 data-i18n="videos.v1.title">Tour Virtual</h3>
+                </div>
+                <div class="video-container reveal-up" style="--delay: 0.2s">
+                    <video controls poster="assets/img/luzes_sweetspot_v8_realism_1769460631941.png">
+                        <source src="assets/img/Videos/video_02.mp4" type="video/mp4">
+                        Seu navegador não suporta vídeos.
+                    </video>
+                    <h3 data-i18n="videos.v2.title">Viva essa Emoção</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prices Section -->
+    <section class="prices" id="precos">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag" data-i18n="prices.tag">Investimento</span>
+                <h2 data-i18n="prices.title">Valores <span class="highlight">Especiais</span></h2>
+                <p data-i18n="prices.subtitle">Condições exclusivas de lançamento. Invista no seu futuro rubro-negro.
+                </p>
+            </div>
+            <div class="prices-grid">
+                <div class="price-card reveal-up" style="--delay: 0.1s">
+                    <div class="price-header">
+                        <h3 data-i18n="prices.c1.title">1 Quarto</h3>
+                        <span class="price-size" data-i18n="prices.c1.size">A partir de 31,62m²</span>
+                    </div>
+                    <div class="price-value">
+                        <span class="currency">R$</span>
+                        <span class="amount">286.900</span>
+                    </div>
+                    <p class="price-desc" data-i18n="prices.c1.desc">Ideal para investidores e jovens profissionais</p>
+                    <ul class="price-features">
+                        <li data-i18n="prices.c1.f1">Varanda integrada</li>
+                        <li data-i18n="prices.c1.f2">Piso laminado nos quartos</li>
+                        <li data-i18n="prices.c1.f3">Bike elétrica inclusa</li>
+                        <li data-i18n="prices.c1.f4">Alta demanda de aluguel</li>
+                    </ul>
+                    <a href="#contato" class="btn btn-secondary" data-i18n="prices.cta">Tenho Interesse</a>
+                </div>
+                <div class="price-card featured reveal-up" style="--delay: 0.2s">
+                    <div class="featured-badge" data-i18n="prices.featured">Mais Procurado</div>
+                    <div class="price-header">
+                        <h3 data-i18n="prices.c2.title">2 Quartos</h3>
+                        <span class="price-size" data-i18n="prices.c2.size">A partir de 42m²</span>
+                    </div>
+                    <div class="price-value">
+                        <span class="currency">R$</span>
+                        <span class="amount">330.900</span>
+                    </div>
+                    <p class="price-desc" data-i18n="prices.c2.desc">Perfeito para famílias e casais</p>
+                    <ul class="price-features">
+                        <li data-i18n="prices.c2.f1">Varanda espaçosa</li>
+                        <li data-i18n="prices.c2.f2">Piso laminado nos quartos</li>
+                        <li data-i18n="prices.c2.f3">Bike elétrica inclusa</li>
+                        <li data-i18n="prices.c2.f4">Apenas 8 colunas disponíveis</li>
+                        <li data-i18n="prices.c2.f5">Alta valorização</li>
+                    </ul>
+                    <a href="#contato" class="btn btn-primary" data-i18n="prices.cta">Tenho Interesse</a>
+                </div>
+                <div class="price-card reveal-up" style="--delay: 0.3s">
+                    <div class="price-header">
+                        <h3 data-i18n="prices.c3.title">2 Quartos (Ponta)</h3>
+                        <span class="price-size" data-i18n="prices.c3.size">Metragem maior</span>
+                    </div>
+                    <div class="price-value">
+                        <span class="currency">R$</span>
+                        <span class="amount">345.900</span>
+                    </div>
+                    <p class="price-desc" data-i18n="prices.c3.desc">Mais espaço e conforto para sua família</p>
+                    <ul class="price-features">
+                        <li data-i18n="prices.c3.f1">Maior metragem da linha</li>
+                        <li data-i18n="prices.c3.f2">Vista privilegiada</li>
+                        <li data-i18n="prices.c3.f3">Piso laminado nos quartos</li>
+                        <li data-i18n="prices.c3.f4">Bike elétrica inclusa</li>
+                    </ul>
+                    <a href="#contato" class="btn btn-secondary" data-i18n="prices.cta">Tenho Interesse</a>
+                </div>
+            </div>
+            <!-- Plantas Carousel -->
+            <div class="plantas-section reveal-up">
+                <h3 data-i18n="prices.plantas">Plantas dos Apartamentos</h3>
+                <div class="carousel" data-carousel="plantas">
+                    <div class="carousel-track">
+                        <img src="assets/img/Book/Book_Digital_1_y5oplu_Página_27.jpg" alt="Planta 1Q"
+                            class="carousel-slide active">
+                        <img src="assets/img/Book/Book_Digital_1_y5oplu_Página_28.jpg" alt="Planta 2Q"
+                            class="carousel-slide">
+                        <img src="assets/img/Book/Book_Digital_1_y5oplu_Página_29.jpg" alt="Planta 2Q Ponta"
+                            class="carousel-slide">
+                    </div>
+                    <button class="carousel-btn prev" aria-label="Anterior">❮</button>
+                    <button class="carousel-btn next" aria-label="Próximo">❯</button>
+                    <div class="carousel-dots"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location" id="localizacao">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag" data-i18n="location.tag">Localização</span>
+                <h2 data-i18n="location.title">No Coração do <span class="highlight">Porto Maravilha</span></h2>
+                <p class="location-address">Rua Benedito Otoni, 29 - Imperial de São Cristóvão, Rio de Janeiro</p>
+            </div>
+            <div class="location-grid">
+                <div class="location-map reveal-left">
+                    <img src="assets/img/Book/Book_Digital_1_y5oplu_Página_10.jpg" alt="Mapa da região" class="map-img">
+                </div>
+                <div class="location-points reveal-right">
+                    <div class="location-point">
+                        <span class="lp-icon">🚂</span>
+                        <div class="lp-text">
+                            <strong data-i18n="location.l1.title">Terminal Gentileza</strong>
+                            <span data-i18n="location.l1.desc">VLT e integração modal</span>
+                        </div>
+                    </div>
+                    <div class="location-point">
+                        <span class="lp-icon">🚌</span>
+                        <div class="lp-text">
+                            <strong data-i18n="location.l2.title">Rodoviária Novo Rio</strong>
+                            <span data-i18n="location.l2.desc">Conexão com todo o Brasil</span>
+                        </div>
+                    </div>
+                    <div class="location-point">
+                        <span class="lp-icon">🏛️</span>
+                        <div class="lp-text">
+                            <strong data-i18n="location.l3.title">Museu do Amanhã</strong>
+                            <span data-i18n="location.l3.desc">Cultura e lazer próximos</span>
+                        </div>
+                    </div>
+                    <div class="location-point">
+                        <span class="lp-icon">🎡</span>
+                        <div class="lp-text">
+                            <strong data-i18n="location.l4.title">Rio Star</strong>
+                            <span data-i18n="location.l4.desc">Roda Gigante do Rio</span>
+                        </div>
+                    </div>
+                    <div class="location-point">
+                        <span class="lp-icon">🐠</span>
+                        <div class="lp-text">
+                            <strong data-i18n="location.l5.title">AquaRio</strong>
+                            <span data-i18n="location.l5.desc">Maior aquário da América do Sul</span>
+                        </div>
+                    </div>
+                    <div class="location-point">
+                        <span class="lp-icon">🏟️</span>
+                        <div class="lp-text">
+                            <strong data-i18n="location.l6.title">Estádio do Flamengo</strong>
+                            <span data-i18n="location.l6.desc">Futuro estádio rubro-negro</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contato">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info reveal-left">
+                    <span class="section-tag" data-i18n="contact.tag">Contato</span>
+                    <h2 data-i18n="contact.title">Fale com Nossa <span class="highlight">Equipe</span></h2>
+                    <p data-i18n="contact.subtitle">Tire suas dúvidas, agende uma visita ou garanta sua unidade. Nossa
+                        equipe está pronta para atender você com exclusividade.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="ci-icon">📞</span>
+                            <div>
+                                <strong data-i18n="contact.phone">Telefone</strong>
+                                <span>(21) 97372-1000</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="ci-icon">💬</span>
+                            <div>
+                                <strong>WhatsApp</strong>
+                                <span>(21) 97372-1000</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="ci-icon">📧</span>
+                            <div>
+                                <strong>E-mail</strong>
+                                <span>vendas@curyluzesdorio.com.br</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="ci-icon">📍</span>
+                            <div>
+                                <strong data-i18n="contact.address">Endereço</strong>
+                                <span>Rua Benedito Otoni, 29 - São Cristóvão, RJ</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="partners">
+                        <span data-i18n="contact.partners">Uma realização:</span>
+                        <div class="partner-logos">
+                            <span class="partner-logo">CURY</span>
+                            <span class="partner-logo">LEV</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form reveal-right">
+                    <h3 data-i18n="contact.form.title">Cadastre-se para Condições Especiais</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder=" " required>
+                            <label for="name" data-i18n="contact.form.name">Nome completo</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder=" " required>
+                            <label for="email" data-i18n="contact.form.email">Seu melhor e-mail</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder=" " required>
+                            <label for="phone" data-i18n="contact.form.phone">WhatsApp com DDD</label>
+                        </div>
+                        <div class="form-group">
+                            <select id="interest" name="interest" required>
+                                <option value="" disabled selected data-i18n="contact.form.interest">Interesse em qual
+                                    unidade?</option>
+                                <option value="1quarto">1 Quarto - R$ 286.900</option>
+                                <option value="2quartos">2 Quartos - R$ 330.900</option>
+                                <option value="2quartos-ponta">2 Quartos (Ponta) - R$ 345.900</option>
+                                <option value="investimento" data-i18n="contact.form.investment">Investimento</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select id="embaixada" name="embaixada">
+                                <option value="" disabled selected data-i18n="contact.form.embassy">Você é membro de
+                                    alguma Embaixada?</option>
+                                <option value="sim" data-i18n="contact.form.embassy.yes">Sim, sou membro oficial
+                                </option>
+                                <option value="nao" data-i18n="contact.form.embassy.no">Não, mas sou torcedor</option>
+                                <option value="interesse" data-i18n="contact.form.embassy.interested">Tenho interesse em
+                                    saber mais</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="3" placeholder=" "></textarea>
+                            <label for="message" data-i18n="contact.form.message">Mensagem (opcional)</label>
+                        </div>
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="privacy" required>
+                            <label for="privacy" data-i18n="contact.form.privacy">Concordo com a Política de Privacidade
+                                e autorizo o contato da equipe Cury.</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full" data-i18n="contact.form.submit">Quero Ser
+                            Contatado</button>
+                    </form>
+                    <div class="form-success" id="formSuccess">
+                        <span class="success-icon">✅</span>
+                        <h4 data-i18n="contact.form.success.title">Cadastro realizado com sucesso!</h4>
+                        <p data-i18n="contact.form.success.desc">Nossa equipe entrará em contato em breve.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Book Digital Section -->
+    <section class="book-section" id="book">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag" data-i18n="book.tag">Material Completo</span>
+                <h2 data-i18n="book.title">Conheça Todos os <span class="highlight">Detalhes</span></h2>
+                <p data-i18n="book.subtitle">Explore o book digital completo do empreendimento com todas as informações,
+                    plantas e perspectivas.</p>
+            </div>
+            <div class="book-carousel reveal-up">
+                <div class="carousel carousel-book" data-carousel="book">
+                    <div class="carousel-track">
+                        <img src="assets/img/Book/Book_Digital_1_y5oplu_Página_11.jpg" alt="Book 1"
+                            class="carousel-slide active">
+                        <img src="assets/img/Book/Book_Digital_1_y5oplu_Página_12.jpg" alt="Book 2"
+                            class="carousel-slide">
+                        <img src="assets/img/Book/Book_Digital_1_y5oplu_Página_13.jpg" alt="Book 3"
+                            class="carousel-slide">
+                        <img src="assets/img/Book/Book_Digital_1_y5oplu_Página_14.jpg" alt="Book 4"
+                            class="carousel-slide">
+                        <img src="assets/img/Book/Book_Digital_1_y5oplu_Página_15.jpg" alt="Book 5"
+                            class="carousel-slide">
+                        <img src="assets/img/Book/Book_Digital_1_y5oplu_Página_16.jpg" alt="Book 6"
+                            class="carousel-slide">
+                        <img src="assets/img/Book/Book_Digital_1_y5oplu_Página_17.jpg" alt="Book 7"
+                            class="carousel-slide">
+                        <img src="assets/img/Book/Book_Digital_1_y5oplu_Página_18.jpg" alt="Book 8"
+                            class="carousel-slide">
+                    </div>
+                    <button class="carousel-btn prev" aria-label="Anterior">❮</button>
+                    <button class="carousel-btn next" aria-label="Próximo">❯</button>
+                    <div class="carousel-dots"></div>
+                </div>
+            </div>
+            <div class="book-cta reveal-up">
+                <a href="#contato" class="btn btn-primary btn-lg" data-i18n="book.cta">Solicitar Book Completo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="logo-text">LUZES DO <span class="highlight">RIO</span></span>
+                    <p data-i18n="footer.desc">O empreendimento mais conectado ao futuro do Flamengo e ao melhor do Rio
+                        de Janeiro. Uma realização Cury Construtora.</p>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer.quick">Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio" data-i18n="nav.home">Início</a></li>
+                        <li><a href="#embaixadas" data-i18n="nav.embassies">Embaixadas</a></li>
+                        <li><a href="#empreendimento" data-i18n="nav.development">Empreendimento</a></li>
+                        <li><a href="#estadio" data-i18n="nav.stadium">Estádio</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer.info">Informações</h4>
+                    <ul>
+                        <li><a href="#precos" data-i18n="nav.prices">Valores</a></li>
+                        <li><a href="#localizacao" data-i18n="location.tag">Localização</a></li>
+                        <li><a href="#book" data-i18n="book.tag">Material Completo</a></li>
+                        <li><a href="#contato" data-i18n="nav.contact">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4 data-i18n="nav.contact">Contato</h4>
+                    <p>(21) 97372-1000</p>
+                    <p>vendas@curyluzesdorio.com.br</p>
+                    <p>Código: <strong>Davi</strong></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Luzes do Rio - Cury Construtora. <span data-i18n="footer.rights">Todos os direitos
+                        reservados.</span></p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">📘</a>
+                    <a href="#" aria-label="Instagram">📸</a>
+                    <a href="#" aria-label="YouTube">▶️</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="#" class="whatsapp-float" id="whatsappBtn" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
