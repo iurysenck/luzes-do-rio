@@ -37,7 +37,7 @@ function initNavbar() {
     });
 
     // Smooth scroll for anchor links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    document.querySelectorAll('a[href^="#"]:not(.whatsapp-float)').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
             const targetId = this.getAttribute('href');
@@ -520,20 +520,19 @@ function initForm() {
         const message = document.getElementById('message').value;
 
         // Build WhatsApp Message
-        let whatsappMsg = `*Novo Lead - Luzes do Rio*\n\n`;
-        whatsappMsg += `*Nome:* ${name}\n`;
-        whatsappMsg += `*Email:* ${email}\n`;
-        whatsappMsg += `*Telefone:* ${phone}\n`;
-        whatsappMsg += `*Interesse:* ${interest}\n`;
+        let whatsappMsg = `Olá! Gostaria de saber mais sobre o *Luzes do Rio*.\n\n`;
+        whatsappMsg += `Me chamo *${name}*.\n`;
+        whatsappMsg += `📧 *Email:* ${email}\n`;
+        whatsappMsg += `📱 *Telefone:* ${phone}\n`;
+        whatsappMsg += `🏠 *Interesse:* ${interest}\n`;
+
         if (embassy && embassy !== 'Você é membro de alguma Embaixada?' && embassy !== 'Are you a member of any Embassy?') {
-            whatsappMsg += `*Embaixada:* ${embassy}\n`;
+            whatsappMsg += `🔴⚫ *Embaixada:* ${embassy}\n`;
         }
 
         if (message) {
-            whatsappMsg += `*Mensagem:* ${message}\n`;
+            whatsappMsg += `\n💬 *Mensagem:* ${message}\n`;
         }
-
-        whatsappMsg += `\n_Enviado via Landing Page_`;
 
         // Encode and Redirect
         const encodedMsg = encodeURIComponent(whatsappMsg);

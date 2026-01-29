@@ -1609,3 +1609,19 @@ h6 {
         padding: 28px 20px;
     }
 }
+/* ===================== PLANTAS CAROUSEL FIX ===================== */
+.plantas-section .carousel-track {
+    height: 500px;
+    background-color: #f8f9fa;
+}
+
+.plantas-section .carousel-slide {
+    height: 100%;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .plantas-section .carousel-track {
+        height: 350px;
+    }
+}
